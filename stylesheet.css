@@ -86,7 +86,7 @@ nav ul li a:hover{
 	display: none;
 }
 .main{
-	background-image: url('images/main10.jpg');
+	background-image: url('images/main10-min.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -98,11 +98,11 @@ nav ul li a:hover{
 
 @keyframes slide {
 	0% {
-		background-image: url('images/main10.jpg');
+		background-image: url('images/main10-min.jpg');
 	}
 
 	50%{
-		background-image: url('images/main20.jpg');
+		background-image: url('images/main20-min.jpg');
 	}
 }
 
@@ -251,6 +251,14 @@ label{
 	background: #fff;
 	float: left;
 	box-sizing: border-box;
+}
+.sec2 .leftBox div button{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 5px 25px;
+	background: #262626;
+	color: #fff;
 }
 
 .sec2 .leftBox .content {
@@ -903,6 +911,9 @@ ul li .time h2 {
 	.first4{
 		padding-left: 2%;
 	}
+	.first4:nth-child(2){
+		font-size: 8px;
+	}
 	.second5{
 		margin-right: 5%;
 	}
@@ -938,10 +949,10 @@ ul li .time h2 {
 	.icon-bar {
   	width: 50px;
   	right:0;
-  	top: 28%;
+  	top: 37%;
 }
 .icon-bar a {
-  padding: 12px;
+  padding: 11px;
   font-size: 18px;
 }
 .latest{
@@ -1096,6 +1107,7 @@ ul li .time h2 {
 	.first4{
 		padding-left: 10%;
 	}
+
 	.second5{
 		margin-right: 10%;
 	}
@@ -1154,6 +1166,26 @@ ul li .time h2 {
 }
 
 @media screen and (max-width: 596px){
+
+	.main img {
+    width: 50%;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+
+	nav{
+	padding: 10px 0;
+}
+.logo{
+	position: absolute;
+	width: 50px;
+	left: 47%;
+}
+label {
+	font-size: 16px;
+}
+
 	.container{
 		padding: 0 5px;
 	}
@@ -1182,7 +1214,7 @@ ul li .time h2 {
 	.icon-bar {
   	width: 50px;
   	right:0;
-  	top: 26%;
+  	top: 32%;
 }
 .icon-bar a {
   padding: 10px;
@@ -1218,14 +1250,31 @@ ul li .time h2 {
 		font-size: 15px;
 	}
 
+	.acad h1 {
+    text-align: left;
+    font-size: 35px;
+    padding: 3px;
+    margin-left: 50px; 
+}
+
+.acad p {
+    text-align: left;
+    font-size: 18px;
+    padding: 3px; 
+    margin-left: 50px;
+}	
+
 .acad .btn button{
 	position: absolute;
 	right: 10%;
-	top: 6%;
+	top: 5%;
 	font-size: 10px;
 	padding:1px 10px;
 }
-
+.acad .acad_content .category p {
+    font-size: 16px;
+    margin-left: 0;
+}
 	.acad .acad_content .category {
 	width: 80%;
 	height: auto;
@@ -1289,6 +1338,15 @@ ul li .time h2 {
 	width: 100%;
 	height: 40vh;
 }
+.sec2 .leftBox div button{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 3px 15px;
+	background: #262626;
+	color: #fff;
+	font-size: 10px;
+}
 
 }
 
@@ -1298,5 +1356,215 @@ ul li .time h2 {
 		font-size: 8px;
 	}
 
+
+}
+
+@media screen and (max-width: 375px){
+	
+	/*.container{
+		padding: 0 0;
+	}*/
+
+	.main img {
+    width: 55%;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+	.top ul li{
+		margin-right: 5px;
+		font-size: 7px;
+	}
+	.first4{
+		padding-left: 1%;
+	}
+	.second5{
+		margin-right: 1%;
+	}
+		nav{
+	padding: 5px 0;
+}
+.logo{
+	position: absolute;
+	width: 35px;
+	left: 47%;
+}
+label {
+	font-size: 16px;
+}
+
+	.latest{
+	width: 60%;
+	padding-top: 30px;
+	}
+
+.Admission{
+	padding-left: 0px;
+	line-height: 20px;
+	padding-bottom: 20px;
+	}
+	.Admission h2{
+		padding-left: 70px;
+		font-size: 21px;
+	}
+
+	.Admission h3{
+		padding-left: 80px;
+		font-size: 12px;
+	}
+
+.important{
+	padding-left: 0px;
+	line-height: 25px;
+	}
+	.important h2{
+		padding-left: 70px;
+		font-size: 21px;
+	}
+
+	.important h3{
+		padding-left: 80px;
+		font-size: 12px;
+	}
+
+		.icon-bar {
+  	width: 45px;
+  	right:0;
+  	top: 27%;
+}
+.icon-bar a {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.acad h1 {
+    text-align: left;
+    font-size: 30px;
+    padding: 3px;
+    margin-left: 30px; 
+}
+
+.acad p {
+    text-align: left;
+    font-size: 16px;
+    padding: 3px; 
+    margin-left: 30px;
+}
+.acad .btn button {
+    position: absolute;
+    right: 10%;
+    top: 5%;
+    font-size: 10px;
+    padding: 1px 10px;
+}
+.acad .acad_content .category button {
+    font-size: 10px;
+}
+.acad .acad_content .category p {
+    font-size: 16px;
+    margin-left: 0;
+}
+
+.sec2 .events ul li .time h2 {
+    font-size: 20px;
+    line-height: 24px;
+}
+.sec2 .events ul li .time h2 span {
+    font-size: 15px;
+}
+.sec2 .events ul li .details {
+    width: 100%;
+    float: none;
+    padding: 0px 0px 0px 100px;
+}
+.strip{
+	width: 20px;
+}
+.strip1{
+	height: 20px;
+}
+.strip2{
+	width: 20px;
+}
+.strip3{
+	height: 20px;
+}
+.strip4{
+	width: 20px;
+}
+.strip5{
+	height: 20px;
+}
+.strip6{
+	width: 20px;
+}
+.strip7{
+	height: 20px;
+}
+.flexbox h1 {
+    font-size: 30px;
+}
+.admission p {
+    font-size: 15px;
+    padding: 15px;
+}
+.foot_content a {
+    font-size: 15px;
+}
+}
+@media screen and (max-width: 320px){
+	
+	/*.container{
+		padding: 0 0;
+	}*/
+	.top ul li{
+		margin-right: 5px;
+		font-size: 6px;
+	}
+	.first4{
+		padding-left: 1%;
+	}
+	.second5{
+		margin-right: 1%;
+	}
+
+	.Admission{
+	padding-left: 0px;
+	line-height: 17px;
+	padding-bottom: 20px;
+	}
+	.Admission h2{
+		padding-left: 70px;
+		font-size: 15px;
+	}
+
+	.Admission h3{
+		padding-left: 80px;
+		font-size: 10px;
+	}
+
+.important{
+	padding-left: 0px;
+	line-height: 17px;
+	}
+	.important h2{
+		padding-left: 70px;
+		font-size: 15px;
+	}
+
+	.important h3{
+		padding-left: 80px;
+		font-size: 10px;
+	}
+
+	.icon-bar {
+  	width: 40px;
+  	right:0;
+  	top: 25%;
+}
+.icon-bar a {
+  padding: 7px;
+  font-size: 12px;
+}
 
 }

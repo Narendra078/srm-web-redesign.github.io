@@ -1355,6 +1355,11 @@ label {
 	.top ul li{
 		font-size: 8px;
 	}
+	.sec2 .events ul li .details {
+    width: 100%;
+    float: none;
+    padding: 0px 0px 0px 100px;
+}
 
 
 }
@@ -1472,11 +1477,7 @@ label {
 .sec2 .events ul li .time h2 span {
     font-size: 15px;
 }
-.sec2 .events ul li .details {
-    width: 100%;
-    float: none;
-    padding: 0px 0px 0px 100px;
-}
+
 .strip{
 	width: 20px;
 }
@@ -1510,6 +1511,18 @@ label {
 }
 .foot_content a {
     font-size: 15px;
+}
+.sec2 .events ul li .details h3 {
+    padding: 7px;
+    font-size: 17px;
+}
+.sec2 .events ul li .details p {
+    padding: 5px;
+    font-size: 11px;
+}
+.sec2 .events ul li .details a {
+    padding: 2px 7px;
+    font-size: 11px;
 }
 }
 @media screen and (max-width: 320px){
@@ -1565,6 +1578,11 @@ label {
 .icon-bar a {
   padding: 7px;
   font-size: 12px;
+}
+.sec2 .events ul li .details {
+    width: 100%;
+    float: none;
+    padding: 0px 0px 0px 100px;
 }
 
 }

@@ -5,6 +5,16 @@
 	font-family: 'PT Sans';
 
 }
+
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff url('images/preloader.gif') no-repeat center;
+	z-index: 999999;
+}
+
+
 header{
 	position: relative;
 	width: 100%;
@@ -1523,6 +1533,32 @@ label {
 .sec2 .events ul li .details a {
     padding: 2px 7px;
     font-size: 11px;
+}
+.flex1 img {
+    width: 100%;
+    padding-top: 10px;
+}
+.flex2 img {
+    width: 80%;
+    padding-top: 10px;
+}
+.flex3 img {
+    width: 40%;
+    padding-top: 10px;
+}
+.flex4 img {
+    width: 80%;
+    padding-top: 15px;
+}
+.flex5 img {
+    width: 90%;
+    padding: 10px;
+    padding-top: 15px;
+}
+.flex6 img {
+    width: 90%;
+    padding: 10px;
+    padding-top: 15px;
 }
 }
 @media screen and (max-width: 320px){
